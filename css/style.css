@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Light.ttf");
+  font-weight: lighter;
+}
+#image-main {
+  background: #424242;
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+.main-content {
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%
+}
+.content-container {
+  padding: 50px
+}
+.content {
+  width: 70%;
+  margin: auto
+}
+body {
+  font-family: 'Roboto', 'Courier';
+  margin: 0;
+}
+.main-header {
+  font-weight: bold
+}
+.highlighted-text {
+  color: orange;
+  font-weight: lighter
+}
+.small-headers {
+  font-weight: 400;
+  font-weight: bold
+}
+#pasek {
+background: black;
+height: 40px;
+padding: 20px 100px;
+}
+.menu {
+  float: left;
+  margin-top: 5px
+}
+.links {
+  float: right;
+  color: white;
+  margin-top: 7px;
+}
+.ramka-e {
+  border: 2px solid orange;
+  -webkit-box-shadow: 2px 2px 25px 0px rgba(255,166,0,1);
+-moz-box-shadow: 2px 2px 25px 0px rgba(255,166,0,1);
+box-shadow: 2px 2px 25px 0px rgba(255,166,0,1);
+color: orange;
+padding: 5px;
+display: inline;
+padding: 8px 5px 8px 5px;
+}
+.fotografia {
+  color: orange;
+  display: inline;
+  margin-left: 5px;
+}
+.kolumny {
+  float: left;
+  box-sizing: border-box;
+  width: 33%;
+  padding: 20px;
+}
+.invisible-content {
+  float: bottom;
+  height: 450px;
+}
+.dolny-pasek {
+  height: 40px;
+  background-color: black;
+  padding: 40px;
+  font-weight: lighter;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 650px;
+}
