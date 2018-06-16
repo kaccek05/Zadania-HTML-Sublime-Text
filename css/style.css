@@ -45,7 +45,7 @@ body {
   font-weight: 400;
   font-weight: bold
 }
-#pasek {
+#stripe {
 background: black;
 height: 40px;
 padding: 20px 100px;
@@ -59,7 +59,7 @@ padding: 20px 100px;
   color: white;
   margin-top: 7px;
 }
-.ramka-e {
+.border-e {
   border: 2px solid orange;
   -webkit-box-shadow: 2px 2px 25px 0px rgba(255,166,0,1);
 -moz-box-shadow: 2px 2px 25px 0px rgba(255,166,0,1);
@@ -69,27 +69,26 @@ padding: 5px;
 display: inline;
 padding: 8px 5px 8px 5px;
 }
-.fotografia {
+.photography-title {
   color: orange;
   display: inline;
   margin-left: 5px;
 }
-.kolumny {
+.columns {
   float: left;
   box-sizing: border-box;
   width: 33%;
   padding: 20px;
 }
 .invisible-content {
-  float: bottom;
   height: 450px;
 }
-.dolny-pasek {
+.bottom-stripe {
   height: 40px;
   background-color: black;
   padding: 40px;
   font-weight: lighter;
   color: white;
   box-sizing: border-box;
-  padding-left: 650px;
+  text-align: center;
 }
