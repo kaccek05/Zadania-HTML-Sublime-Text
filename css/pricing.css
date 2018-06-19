@@ -1,0 +1,22 @@
+table td {
+	padding: 10px 5px;
+}
+table tr {
+	background: #e8e5e9;
+}
+table {
+	border-spacing: 5px;
+}
+table tr:nth-child(odd) {
+	background: #f3f0f4;
+}
+table thead tr th {
+	text-align: left;
+	background: white;
+	color: orange;
+}
+.pricing-image {
+	float: left;
+	width: 200px;
+	
+}

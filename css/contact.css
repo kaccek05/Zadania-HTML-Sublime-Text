@@ -1,0 +1,17 @@
+.contact-left {
+  float: left;
+  width: 45%;
+}
+.contact-right {
+  float: right;
+  width: 35%;
+}
+.form-element {
+	margin-bottom: 20px;
+}
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #333;
+}

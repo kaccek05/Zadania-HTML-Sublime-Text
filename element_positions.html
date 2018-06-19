@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  .blue-rectangle {
+    background: blue;
+    height: 50px;
+    width: 100px;
+    position: fixed;
+    left: -50px;
+    top: 300px;
+    cursor: pointer;
+    transition: all 1s ease-in;
+  }
+  .blue-rectangle:hover {
+    left: 0;
+    background: yellow;
+  }
+  .red-square {
+    background: red;
+    margin: 100px auto;
+    height: 200px;
+    width: 200px;
+    position: relative;
+  }
+  .red-square:hover .green-square {
+    height: 200px;
+    width: 200px;
+    top: 0;
+    left: 0;
+  }
+  .green-square {
+    background: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: all 0.5s ease-in-out;
+  }
+  </style>
+</head>
+<body>
+  <div class="blue-rectangle">
+  </div>
+  <div class="red-square">
+    <div class="green-square">
+    </div>
+  </div>
+</body>
+</html>
