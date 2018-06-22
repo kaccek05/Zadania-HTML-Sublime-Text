@@ -18,5 +18,20 @@ table thead tr th {
 .pricing-image {
 	float: left;
 	width: 200px;
-	
+}
+.full-wide-container {
+	margin-left: -50%;
+	margin-right: -50%;
+	background: black;
+}
+.second-table table tr {
+	background: #191919;
+	color: white;
+}
+.second-table table tr:nth-child(odd) {
+	background: #282828;
+	color: white;
+}
+.second-table table thead tr th{
+	background: black;
 }
